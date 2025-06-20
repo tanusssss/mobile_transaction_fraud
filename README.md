@@ -2,18 +2,6 @@
 
 This project demonstrates an interpretable, rule-based system for detecting fraudulent mobile money transactions using **Python** and **Streamlit**. The system uses heuristic thresholds on transaction step duration, amount, and type to flag suspicious transactions.
 
-mobile_transaction_fraud/
-├── app/
-│   └── detection.py          Rule-based logic
-├── dashboard/
-│   ├── streamlit_app.py      Rule tuner dashboard
-│  
-├── data/
-│   └── raw/
-│       └── Fraud_Analysis_Dataset.csv
-└── README.md
-
-
 ## Features
 
 - Interactive **rule tuning dashboard**
@@ -70,6 +58,17 @@ Stacked bar plots by fraud flag
 Input a single transaction manually
 
 Get real-time fraud prediction using current rules
+
+mobile_transaction_fraud/
+├── app/
+│   └── detection.py          Rule-based logic
+├── dashboard/
+│   ├── streamlit_app.py      Rule tuner dashboard
+│  
+├── data/
+│   └── raw/
+│       └── Fraud_Analysis_Dataset.csv
+└── README.md
 
 ## How to Run
 git clone https://github.com/yourusername/mobile_transaction_fraud.git
