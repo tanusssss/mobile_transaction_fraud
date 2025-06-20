@@ -4,9 +4,9 @@ This project demonstrates an interpretable, rule-based system for detecting frau
 
 mobile_transaction_fraud/
 ├── app/
-│   └── detection.py          # Rule-based logic
+│   └── detection.py          Rule-based logic
 ├── dashboard/
-│   ├── streamlit_app.py      # Rule tuner dashboard
+│   ├── streamlit_app.py      Rule tuner dashboard
 │  
 ├── data/
 │   └── raw/
